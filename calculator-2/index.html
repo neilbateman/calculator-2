@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <div id="blanks">
+      <h3> Addition </h3>
+      <form>
+         <label for="addNumber1">Number 1</label>
+         <input id="addNumber1" type="text"/>
+
+         <label for="addNumber2">Number 2</label>
+         <input id="addNumber2" type="text"/>
+
+         <div id="addResult">
+           <p> Result: <span class="add"></span> </p>
+         </div>
+
+
+         <h3> Subtraction </h3>
+
+        <label for="subtractNumber1">Number 1</label>
+        <input id="subtractNumber1" type="text"/>
+
+        <label for="subtractNumber2">Number 2</label>
+        <input id="subtractNumber2" type="text"/>
+        <div id="subtractResult">
+          <p> Result: <span class="subtract"></span> </p>
+        </div>
+
+        <h3> Multiplication </h3>
+
+       <label for="multiplyNumber1">Number 1</label>
+       <input id="multiplyNumber1" type="text"/>
+
+       <label for="multiplyNumber2">Number 2</label>
+       <input id="multiplyNumber2" type="text"/>
+       <button type="submit" class="btn">Submit!</button>
+       <div id="multiplyResult">
+         <p> Result: <span class="multiply"></span> </p>
+       </div>
+      </form>
+    </div>
+
+  </body>
+</html>
